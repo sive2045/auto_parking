@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>자율 주차 제어</title>
+    <style>
+        #control{
+            display: flex;
+            align-items: center; /* 수직 정렬 */
+            flex-direction: row; /* default: row */
+            justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">자율 주차 제어 시스템</h1>
+    <div id=control>
+        <form action='http://127.0.0.1:5000/go_left'>
+            <button type="submit" style="width:80pt;height:80pt;">좌상</button>
+        </form>&nbsp;
+        <form action='http://127.0.0.1:5000/go'>
+            <button type="submit" style="width:80pt;height:80pt;">전진</button>
+        </form>&nbsp;
+        <form action='http://127.0.0.1:5000/go_right'>
+            <button type="submit" style="width:80pt;height:80pt;">우상</button>
+        </form>
+    </div>
+    <br>
+    <div id=control>
+        <form action='http://127.0.0.1:5000/left'>
+            <button type="submit" style="width:80pt;height:80pt;">왼쪽 스핀</button>
+        </form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <form action='http://127.0.0.1:5000/right'>
+            <button type="submit" style="width:80pt;height:80pt;">오른쪽 스핀</button>
+        </form>
+    </div>
+    <br>
+    <div id=control>
+        <form action='http://127.0.0.1:5000/back_left'>
+            <button type="submit" style="width:80pt;height:80pt;">좌하</button>
+        </form>&nbsp;
+        <form action='http://127.0.0.1:5000/back'>
+            <button type="submit" style="width:80pt;height:80pt;">후진</button>
+        </form>&nbsp;
+        <form action='http://127.0.0.1:5000/back_right'>
+            <button type="submit" style="width:80pt;height:80pt;">우하</button>
+        </form>
+    </div>
+    <br>
+    <div id=control>
+        <form action='http://127.0.0.1:5000/auto_parking'>
+            <button type="submit" style="width:80pt;height:80pt;">자율 직각 주차</button>
+        </form>
+    </div>
+</body>
+</html>
