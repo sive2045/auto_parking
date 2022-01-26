@@ -4,6 +4,8 @@ import Car_Motor
 import time
 
 car = Car_Motor.Car_Motor()
+del car
+car = Car_Motor.Car_Motor()
 
 app = Flask(__name__)
 
@@ -62,7 +64,7 @@ def back_right():
 
 @app.route('/auto_parking', methods=['GET'])
 def auto_parking():
-    car.Car_Run(180, 60)
+    car.Car_Run(150, 60)
     time.sleep(1.7)
     car.Car_Stop()
 
