@@ -3,6 +3,6 @@
 
 # 1차 일시 테스트 (경진대회 제출용)
 ## 영상처리
-<img src="https://user-images.githubusercontent.com/50041580/152147788-5aefcd86-7fa8-4bd0-9602-544c1435d1f2.gif/"><br>
+[![pre](https://youtu.be/ZyJJgiDulig/0.jpg)](https://youtu.be/ZyJJgiDulig?t=0s)
 ## 실제 작동 영상
-<img src="/tmp_project/test_video/22-02-02 14-33-41 0941.mp4">
+[![real](https://youtu.be/8nAsuiKHqWo/0.jpg)](https://youtu.be/8nAsuiKHqWo?t=0s)
